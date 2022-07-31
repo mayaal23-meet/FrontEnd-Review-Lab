@@ -2,12 +2,20 @@
 <html>
 <head>
 	<title>My first page</title>
+		<script src='main.js'></script>
+		<style>
+			body {background-color: pink;}
+			#maya {color:lightskyblue;}
+			.noa {color:blue;}
+		</style>
 </head>
-<body>
+<body onclick='black'>
 	<h1>Hello!</h1>
-	<h2>this is Maya's first page</h2>
-	<p>have a nice day</p>
+	<h2 id='maya'>this is Maya's first page</h2>
+	<p class='noa'>have a nice day</p>
+	<p class='noa'>xoxo, maya</p>
 	<img src='heart.jpg' wigth=400 height=400>
 	<a href='https://en.wikipedia.org/wiki/Heart'>this is a heart</a>
+	<button onclick="changeBackgroundColor('magenta')">Click me to change BG color</button>
 </body>
 </html>
